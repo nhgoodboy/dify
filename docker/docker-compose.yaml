@@ -1269,6 +1269,8 @@ networks:
   opensearch-net:
     driver: bridge
     internal: true
+  default:
+    driver: bridge
 
 volumes:
   oradata:
